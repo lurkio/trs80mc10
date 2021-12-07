@@ -1,5 +1,6 @@
 1 REM HAIKU, Vers. 1.2 
-2 REM ported to BBC BASIC by lurkio @ Stardot, 2021-12-07
+2 REM from Experiments in Artificial Intelligence for Small Computers by John Krutch
+3 REM ported to BBC BASIC by lurkio @ Stardot, 2021-12-07
 
 5 *FX15
 6 MODE 7:PRINT TAB(0,9)"Press a key...";:T=TIME:REPEATUNTILTIME-T>600ORINKEY(0)<>-1:IFRND(-TIME)
